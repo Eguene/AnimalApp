@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PetDetails3">
+
+    <TextView
+        android:id="@+id/BirbDetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/BirbDetNameTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/BirbDetAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toEndOf="@+id/BirbDetAgeTitle"
+        app:layout_constraintTop_toBottomOf="@+id/BirbDetName" />
+
+    <TextView
+        android:id="@+id/BirbDetWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/BirbDetWeightTitle"
+        app:layout_constraintTop_toBottomOf="@+id/BirbDetAge" />
+
+    <TextView
+        android:id="@+id/BirbDetHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/BirbDetHealthTitle"
+        app:layout_constraintTop_toBottomOf="@+id/BirbDetWeight" />
+
+    <TextView
+        android:id="@+id/BirbDetNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bird name:"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/BirbDetAgeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Bird age:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BirbDetNameTitle" />
+
+    <TextView
+        android:id="@+id/BirbDetWeightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Bird weight:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BirbDetNameTitle" />
+
+    <TextView
+        android:id="@+id/BirbDetHealthTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Is the bird healthy?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BirbDetNameTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
